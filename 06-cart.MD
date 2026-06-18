@@ -25,7 +25,7 @@ Configure the application. Here
 Our application developed by the own developer is not having any RPM software just like other softwares. So we need to configure every step manually
 
 caution 
-We already discussed in Linux basics section that applications should run as nonroot user.
+As per the best organizational practices applications should run as nonroot user.
 
 Add application User
 
@@ -37,7 +37,7 @@ User **roboshop** is a function / daemon user to run the application. Apart from
 
 Also, username **roboshop** has been picked because it more suits to our project name.
 
-We keep application in one standard location. This is a usual practice that runs in the organization.
+We keep application in one standard location.
 
 Lets setup an app directory. 
 
@@ -64,7 +64,7 @@ npm install
 
 We need to setup a new service in **systemd** so `systemctl` can manage this service
 
-We already discussed in linux basics that advantages of systemctl managing services, Hence we are taking that approach. Which is also a standard way in the OS. 
+It is advantageouss of systemctl managing services, Hence we are taking that approach. Which is also a standard way in the OS. 
 
 Setup SystemD Cart Service 
 
