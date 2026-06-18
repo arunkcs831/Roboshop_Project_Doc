@@ -27,7 +27,7 @@ Configure the application. Here
 
 Our application developed by the user is not having any RPM software just like other softwares. So we need to configure every step manually
 
-We already discussed in Linux basics section that applications should run as nonroot user.
+As per the best organizational standards applications should run as nonroot user.
 
 Add application User
 
@@ -67,7 +67,7 @@ npm install
 
 We need to setup a new service in **systemd** so `systemctl` can manage this service
 
-We already discussed in linux basics that advantages of systemctl managing services, Hence we are taking that approach. Which is also a standard way in the OS. 
+It is advantageous of systemctl managing services, Hence we are taking that approach. Which is also a standard way in the OS. 
 
 
 
